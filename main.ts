@@ -51,6 +51,9 @@ input.onButtonPressed(Button.B, function () {
         }
     }
 })
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showIcon(IconNames.Ghost)
+})
 basic.showIcon(IconNames.Heart)
 basic.forever(function () {
 	
