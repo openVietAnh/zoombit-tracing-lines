@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    music.setTempo(140)
+    music.setTempo(120)
     music.play(music.tonePlayable(587, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
     music.rest(music.beat(BeatFraction.Sixteenth))
     music.play(music.tonePlayable(698, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
